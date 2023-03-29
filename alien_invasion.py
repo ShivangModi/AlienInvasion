@@ -169,7 +169,7 @@ class AlienInvasion:
         number_rows = available_space_y // (2 * alien_height)
 
         # create the first row of aliens
-        for row_number in range(number_rows-1):
+        for row_number in range(number_rows-2):
             for alien_number in range(number_aliens_x+1):
                 self.__create_alien(alien_number, row_number)
 
